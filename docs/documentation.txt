@@ -1,0 +1,2 @@
+Hardware:
+Laser Scanner RPLiDAR A1M8-R6

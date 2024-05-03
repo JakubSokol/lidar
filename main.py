@@ -1,5 +1,5 @@
 from rplidar import RPLidar
-lidar = RPLidar(port='COM3',timeout=3)
+lidar = RPLidar(port='/dev/cu.usbserial-0001',timeout=3)
 
 info = lidar.get_info()
 print(info)

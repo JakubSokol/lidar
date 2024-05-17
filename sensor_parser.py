@@ -7,7 +7,6 @@ class Measurement:
 def parse_row(row):
     my_var=row.strip("\n").split("\t")
     return Measurement(int(my_var[1]),float(my_var[2]),float(my_var[3]))
-
 def parse_chunk(chunk):
     measurement_list=[]
     for row in chunk:

@@ -7,7 +7,7 @@ if __name__=="__main__":
     data = get_data("out.txt")
     a=[]
     b=[]
-    number_of_cycle = 4
+    number_of_cycle = 3
     print(type(data[0][0].accuracy))
     for i in range(0,len(data[number_of_cycle])):
         if data[number_of_cycle][i].accuracy ==0:
